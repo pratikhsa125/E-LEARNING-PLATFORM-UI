@@ -60,7 +60,12 @@ Right-click on index.html → Open with Browser.
 Navigate between pages using the navigation bar.
 
 🖼️ Screenshots 
-
+<img width="1894" height="911" alt="Image" src="https://github.com/user-attachments/assets/3cc5674c-b8f0-4409-a93c-fef4ae461345" />
+<img width="1906" height="923" alt="Image" src="https://github.com/user-attachments/assets/c81041cb-54a9-403b-8f87-fe23689dd590" />
+<img width="1906" height="915" alt="Image" src="https://github.com/user-attachments/assets/afb3e694-9010-4c06-ab11-ff19d29c6504" />
+<img width="1883" height="916" alt="Image" src="https://github.com/user-attachments/assets/28ca720b-ced3-4cd7-8ee5-3482365acfbc" />
+<img width="1879" height="912" alt="Image" src="https://github.com/user-attachments/assets/b75e0930-a105-4826-98cf-ee4d11f6559f" />
+<img width="1891" height="908" alt="Image" src="https://github.com/user-attachments/assets/0a73aceb-49d2-4709-88f6-2740e45794f9" />
 
 
 📊 Result
