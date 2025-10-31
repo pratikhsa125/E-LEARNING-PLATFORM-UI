@@ -1,0 +1,343 @@
+/* 🌐 Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🌟 Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+  padding: 15px 40px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+  transform: scale(1.05);
+}
+
+/* 🏠 Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 120px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.hero h2 {
+  font-size: 40px;
+  color: #1e3a8a;
+}
+
+.hero p {
+  margin: 15px 0 25px;
+  font-size: 18px;
+  color: #555;
+}
+
+.hero button {
+  padding: 12px 30px;
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero button:hover {
+  background: linear-gradient(90deg, #3b82f6, #1e3a8a);
+  transform: scale(1.05);
+}
+
+/* 📚 Courses Page */
+.course-container {
+  padding: 60px 40px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.course-container h2 {
+  color: #1e3a8a;
+  margin-bottom: 30px;
+}
+
+.course-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background: white;
+  border-radius: 16px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.course-card h3 {
+  color: #1e3a8a;
+  margin: 10px 0;
+}
+
+.course-card p {
+  color: #555;
+  font-size: 15px;
+}
+
+.course-card button {
+  margin-top: 15px;
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.course-card button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #3b82f6, #1e3a8a);
+}
+
+/* 🎥 Video Popup */
+.video-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.video-content {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  animation: fadeIn 0.5s ease;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 26px;
+  color: red;
+  cursor: pointer;
+}
+
+/* 📈 Progress Page */
+.progress-container {
+  padding: 60px 40px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.progress-container h2 {
+  color: #1e3a8a;
+  margin-bottom: 25px;
+}
+
+.progress-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.progress-card {
+  background: white;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.progress-card h3 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #1e3a8a);
+  width: 0%;
+  transition: width 0.4s ease-in-out;
+}
+
+.progress-card button {
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.progress-card button:hover {
+  background: linear-gradient(90deg, #3b82f6, #1e3a8a);
+  transform: scale(1.05);
+}
+
+/* 🔐 Login Page */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: white;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.login-container form {
+  background: white;
+  color: #1e3a8a;
+  padding: 30px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.login-container input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.login-container button {
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  transform: scale(1.05);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .course-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .progress-card {
+    width: 90%;
+  }
+
+  .video-content iframe {
+    width: 90vw;
+    height: 50vw;
+  }
+}
+
+/* ⚙️ Footer */
+footer {
+  text-align: center;
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+  color: white;
+  padding: 12px;
+  margin-top: auto;
+  font-size: 14px;
+}
+
+/* ✨ Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
